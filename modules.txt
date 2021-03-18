@@ -1,0 +1,28 @@
+# ansible==2.8.5
+# Use Ansible 2.7 to avoid :
+# UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 110: ordinal not in range(128)
+# In case of SSH problem: ssh.py module is not able to interpret the french response
+ansible==2.7.9
+boto==2.43.0
+boto3==1.7.35
+certifi==2018.8.24
+chardet==3.0.4
+cffi==1.11.1
+cryptography==1.4
+enum34==1.1.6
+hvac==0.3.0
+idna==2.6
+ipaddress==1.0.22
+jinja2==2.10
+jmespath==0.9.3
+markupsafe==1.0
+ndg-httpsclient==0.4.3
+openshift==0.8.0
+paramiko==2.1.2
+pyasn1==0.4.4
+pycparser==2.18
+pyopenssl==16.2.0
+pyyaml==3.13
+requests==2.18.4
+six==1.11.0
+urllib3[secure]==1.22
